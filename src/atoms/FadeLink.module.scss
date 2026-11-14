@@ -1,0 +1,19 @@
+.link {
+  transition: color 0.2s ease;
+}
+
+.ivory {
+  color: color-mix(in srgb, var(--ivory) 80%, transparent);
+
+  &:hover {
+    color: var(--ivory);
+  }
+}
+
+.foreground {
+  color: color-mix(in srgb, var(--foreground) 70%, transparent);
+
+  &:hover {
+    color: var(--foreground);
+  }
+}

@@ -1,0 +1,11 @@
+.right {
+  background: linear-gradient(100deg, var(--ink) 0%, var(--umber) 55%, var(--ivory) 100%);
+}
+
+.left {
+  background: linear-gradient(260deg, var(--ink) 0%, var(--umber) 55%, var(--ivory) 100%);
+}
+
+.description {
+  color: color-mix(in srgb, var(--foreground) 80%, transparent);
+}

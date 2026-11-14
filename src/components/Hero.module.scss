@@ -1,0 +1,17 @@
+.nav {
+  opacity: calc(1 - var(--progress, 0));
+  transform: translateY(calc(var(--progress, 0) * -30px));
+}
+
+.content {
+  opacity: calc(1 - var(--progress, 0));
+  transform: translateY(calc(var(--progress, 0) * -60px));
+}
+
+.name {
+  color: var(--ivory);
+}
+
+.blurb {
+  color: color-mix(in srgb, var(--foreground) 70%, transparent);
+}

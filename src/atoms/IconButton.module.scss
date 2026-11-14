@@ -1,0 +1,10 @@
+.button {
+  background: color-mix(in srgb, var(--black) 70%, transparent);
+  color: var(--ivory);
+  border-color: color-mix(in srgb, var(--ivory) 20%, transparent);
+  opacity: var(--visible, 1);
+
+  &:hover {
+    background: color-mix(in srgb, var(--black) 90%, transparent);
+  }
+}
