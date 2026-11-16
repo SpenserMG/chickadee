@@ -27,7 +27,9 @@ export default function ProjectSection({
 
   return (
     <section
-      className={`${styles[direction]} min-h-screen flex items-center px-6 sm:px-16 snap-start snap-always`}
+      className={`${styles[direction]} min-h-screen flex items-center ${
+        textAlign === "left" ? "justify-start" : "justify-end"
+      } px-6 sm:px-16 snap-start snap-always`}
     >
       <ScrollReveal className={`flex flex-col gap-5 max-w-xl w-full ${align}`}>
         <Heading>{title}</Heading>

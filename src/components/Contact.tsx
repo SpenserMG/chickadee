@@ -7,14 +7,12 @@ import styles from "./Contact.module.scss";
 const links = [
   {
     label: "GitHub",
-    // TODO: replace with your actual GitHub profile URL
-    href: "https://github.com/your-username",
+    href: "https://github.com/SpenserMG",
     icon: <GithubIcon className="h-6 w-6" />,
   },
   {
     label: "LinkedIn",
-    // TODO: replace with your actual LinkedIn profile URL
-    href: "https://linkedin.com/in/your-username",
+    href: "https://www.linkedin.com/in/spenser-greeley/",
     icon: <LinkedinIcon className="h-6 w-6" />,
   },
 ];
